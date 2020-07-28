@@ -1,0 +1,14 @@
+/**
+ * SchemaResponse
+ */
+{"namespace": "com.example.schema.registry.domain",
+  "type": "record",
+  "name": "SchemaResponse",
+  "fields": [
+    {"name": "id", "type": "int"},
+    {"name": "subject", "type": "string"},
+    {"name": "format",  "type": "string"},
+    {"name": "version",  "type": "int"},
+    {"name": "definition", "type": "string"}
+  ]
+}
